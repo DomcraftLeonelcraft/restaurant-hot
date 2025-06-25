@@ -1,0 +1,520 @@
+/* Importación de fuentes y estilos básicos */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Estilos generales y de centrado */
+body {
+    margin: 0 !important;
+    padding: 1% !important;
+    padding-bottom: 0 !important;
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #333 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* Contenedor principal para limitar el ancho máximo del contenido */
+.contenedor {
+    width: 100% !important;
+    max-width: 1000px !important;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+}
+
+/* Estilos del encabezado */
+header {
+    background-image: url('cocineros2.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 20px !important;
+    height: 100% !important;
+    width: 90% !important;
+    padding: 1% !important;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+    color: #fff !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-self: center !important;
+}
+
+/* Estilos de navegación */
+nav.menu {
+    margin: 0 !important;
+    background-color: rgba(255, 160, 122, 0.8) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+}
+
+nav.menu a {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    font-weight: bold !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+}
+
+nav.menu a:hover {
+    color: #ff6347 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    flex-wrap: wrap !important;
+}
+
+/* Estilos del contenido del encabezado */
+.contenido-header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.titulo-header {
+    font-size: 4rem !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    text-shadow: 2px 2px 1px #333 !important;
+}
+
+.linea-header {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 70% !important;
+    height: 3px !important;
+    background: #ff6347 !important;
+    margin: 20px !important;
+}
+
+.texto-header {
+    font-size: 1.5rem !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+    color: white !important;
+    text-shadow: 1.5px 1.5px 1px #333 !important;
+}
+
+.action-header {
+    color: #fff !important;
+    text-shadow: 1.5px 1.5px 1px #333 !important;
+    text-decoration: none !important;
+    border: 2px solid #ff6347 !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+}
+
+.action-header:hover {
+    background: #ff6347 !important;
+}
+
+/* Estilos del contenido principal */
+main {
+    width: 86% !important;
+    max-width: 800px !important;
+    margin-top: 40px !important;
+    padding: 20px !important;
+    background-color: #fff !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+}
+
+/* Estilos de secciones y títulos */
+section {
+    margin-bottom: 40px !important;
+    text-align: center !important;
+}
+
+h2, h3 {
+    color: #ff6347 !important;
+}
+
+/* Estilos de tarjetas */
+.contenido-cajas {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+}
+
+.tarjeta {
+    width: calc(33.333% - 20px) !important;
+    background: #fff !important;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+.imagen-tarjeta {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.contenido-tarjeta {
+    padding: 15px !important;
+    text-align: center !important;
+}
+
+/* Estilos de la galería */
+.galeria {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 20px !important;
+}
+
+.fotos {
+    width: calc(33.333% - 20px) !important;
+    margin-bottom: 20px !important;
+}
+
+.fotos img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 5px !important;
+}
+
+/* Estilos del acordeón */
+.container {
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.categorias {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.nosotros {
+    padding-top: 5% !important;
+    padding-right: 15% !important;
+    padding-left: 15% !important;
+}
+
+.accordion {
+    width: 100% !important;
+    background-color: #ff6347 !important;
+    padding: 15px 0 !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.enlaces {
+    padding-top: 15px;
+}
+
+.item {
+    background-color: #fff !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 18px !important;
+    margin: 10px 0 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+    transition: 0.7s !important;
+}
+
+.carousel{
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.section {
+    padding-top: 50px;
+    position: relative !important;
+    padding: 15px !important;
+    color: #ff6347 !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
+    border-bottom: 1px solid #ff6347 !important;
+    font-weight: 700 !important;
+}
+
+.info {
+
+    width: 90% !important;
+    padding: 0 15px !important;
+    margin: 15px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    transition: max-height 0.5s ease !important;
+
+}
+
+.item.active > .info {
+    max-height: 150px !important;
+    opacity: 1 !important;
+}
+
+.item.active {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2) !important;
+    transform: scale(1.02) !important;
+}
+
+.enlaces a {
+    text-decoration: none !important;
+    color: #333 !important;
+}
+
+.enlaces a:hover {
+    color: #ff6347 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+    flex-wrap: wrap !important;
+    text-decoration: none !important;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background: #333 !important;
+    padding-top: 16px !important;
+    width: 102% !important;
+}
+
+.info-footer {
+    background: #F2F3F5 !important;
+    padding: 24px 0 !important;
+}
+
+.info-container {
+    max-width: 90rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    height: 100% !important;
+}
+
+.info-container-data {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 24px !important;
+    margin-bottom: 8px !important;
+}
+
+.footer-contactanos {
+    flex: 1 0 auto !important;
+}
+
+.contactanos-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    color: #3A414A !important;
+    font-weight: 400 !important;
+    height: 42px !important;
+    padding: 0 8px !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s !important;
+}
+
+.contactanos-link:hover, .contactanos-link:focus {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.social-icons {
+    display: flex !important;
+    list-style: none !important;
+    gap: 24px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 42px !important;
+    align-items: center !important;
+}
+
+.icon-image {
+    height: 20px !important;
+    width: 20px !important;
+    transition: opacity 0.3s !important;
+}
+
+.icon-image:hover {
+    opacity: 0.7 !important;
+}
+
+.app-links {
+    display: flex !important;
+    gap: 8px !important;
+}
+
+.app-image {
+    height: 40px !important;
+    width: auto !important;
+    transition: opacity 0.3s !important;
+}
+
+.app-image:hover {
+    opacity: 0.8 !important;
+}
+
+.copyright {
+    font-family: Graphik, sans-serif !important;
+    color: #282C33 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 1.1 !important;
+    text-align: right !important;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+}
+
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border-width: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .info-container-data {
+        flex-direction: column !important;
+    }
+
+    .social-icons, .app-links {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .copyright {
+        text-align: center !important;
+    }
+}
+
+/* Estilos del formulario de contacto */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton {
+    background-color: #ff6347;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #ff4500;
+}
+
+.footer-textos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-textos h2 {
+    color: #ff6347;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-textos p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tarjeta, .fotos {
+        width: calc(50% - 20px) !important;
+    }
+    
+    .formulario {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tarjeta, .fotos {
+        width: 100% !important;
+    }
+    
+    .titulo-header {
+        font-size: 3rem !important;
+    }
+    
+    .texto-header {
+        font-size: 1.2rem !important;
+    }
+    
+    .desaparecer {
+        display: none !important;
+    }
+
+    nav.menu {
+        flex-direction: column !important;
+    }
+
+    nav.menu a {
+        margin: 5px 0 !important;
+    }
+}
